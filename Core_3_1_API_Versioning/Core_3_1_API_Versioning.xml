@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Core_3_1_API_Versioning</name>
+    </assembly>
+    <members>
+        <member name="T:APP.API.Controllers.v1.StatesController">
+            <summary>
+            State Management
+            </summary>
+            <remarks>
+            Author:
+            
+                Afolabi Gmatt Matthew
+                
+            Copyright:
+            
+                Copyright (c) Phareztech Code Lab. All rights reserved.
+            
+            </remarks>
+        </member>
+        <member name="T:APP.API.Controllers.v2.StatesController">
+            <summary>
+            State Management
+            </summary>
+            <remarks>
+            Author:
+            
+                Afolabi Gmatt Matthew
+                
+            Copyright:
+            
+                Copyright (c) Phareztech Code Lab. All rights reserved.
+            
+            </remarks>
+        </member>
+        <member name="M:Core_3_1_API_Versioning.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Core_3_1_API_Versioning.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>
